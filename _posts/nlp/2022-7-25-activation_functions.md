@@ -79,6 +79,51 @@ $$
 * 没有饱和区，不存在梯度消失问题，防止梯度弥散。
 * 稀疏性。
 * 计算简单。
-* 
+* 收敛快。
 
 ## 缺点
+
+* 会导致部分节点dead，当学习率变大时，dead节点更多
+
+# Softmax
+
+## 函数
+
+$$
+\text{Softmax}(x_{i}) = \frac{e^{x_i}}{\sum_j e^{x_j}}
+$$
+
+# GeLu
+
+<div align=center> <img src="{{ site.url }}/assets/images/gelu.png" width="500"> </div>  
+
+## 函数
+
+$$
+\operatorname{gelu}(x)=x P(X \leq x) \quad X \sim \mathcal{N}(0,1)
+$$
+
+## 实现
+
+$$
+\operatorname{gelu}(x)=\frac{1}{2} x\left(1+\operatorname{erf}\left(\frac{x}{\sqrt{2}}\right)\right.
+$$
+
+```
+import numpy as np
+import torch
+def gelu(x):
+    cdf = 0.5 * (1.0 + torch.erf(torch.tensor(x) / np.sqrt(2.0)))
+    return x * cdf
+```
+
+## 导数
+
+$$
+\begin{gathered}
+\operatorname{gelu}^{\prime}(x)=0.5 \tanh \left(0.0356774 x^{3}+0.797885 x\right) \\
++\left(0.0535161 x^{3}+0.398942 x\right) \operatorname{sech}^{2}\left(0.0356774 x^{3}+0.797885 x\right)+0.5
+\end{gathered}
+$$
+
+## 优点

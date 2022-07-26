@@ -160,7 +160,6 @@ a {
 }
 
 .main-content {
-  width: 100%;
   word-wrap: break-word;
 
   :first-child {
@@ -168,6 +167,7 @@ a {
   }
 
   @include large {
+    width: 100%;
     max-width: 80rem;
     padding: 0rem 6rem;
     // margin: 0 auto;
@@ -383,7 +383,7 @@ a {
   margin: 0px 20px 0px 0px;
   ul {
     margin: 0px;
-    padding: 20px 0px;
+    padding: 10px 0px;
   }
 }
 
