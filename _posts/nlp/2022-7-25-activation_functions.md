@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "激活函数"
+title:  "激活函数汇总"
 permalink: /activation_functions.html
 ---
 # Sigmoid
@@ -127,3 +127,8 @@ $$
 $$
 
 ## 优点
+* GeLu可以看作是dropout和relu的结合
+* 按照正态分布去dropout节点
+
+## 缺点
+* 计算复杂度高
