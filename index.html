@@ -1,0 +1,277 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Notes</title><meta name="author" content="EeyoreLee"><meta name="copyright" content="EeyoreLee"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Notes">
+<meta property="og:url" content="https://eeyorelee.github.io/index.html">
+<meta property="og:site_name" content="Notes">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://eeyorelee.github.io/img/avatar.jpg">
+<meta property="article:author" content="EeyoreLee">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://eeyorelee.github.io/img/avatar.jpg"><link rel="shortcut icon" href="/img/fa.png"><link rel="canonical" href="https://eeyorelee.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Notes',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-10-23 16:05:22'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet" /></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">22</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">6</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/tt.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Notes"><span class="site-name">Notes</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Notes</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/model-es-performance-optimization/" title="记：一次接口性能优化（cpu模型推理 + ES)">记：一次接口性能优化（cpu模型推理 + ES)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-08-22T19:38:04.000Z" title="Created 2024-08-22 19:38:04">2024-08-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/">数据科学</a></span></div><div class="content">优化结果
+线下
+   
+线上
+线上因为服务和ES都在AWS，所以速度会更快，具体结果还在测试中（后面会介绍优化后，docker部署的一个需要注意的地方）
+优化过程
+性能分析
+在优化性能时，首先分析耗时在哪里，此次优化的是一个Python的flask接口，内部的主要分两部分——ES查询 + bert推理。此时选取一个python性能分析工具cProfile，即可获取一个分析结果
+   
+根据分析结果，我们可以看到此接口进行了50次ES查询以及10次模型推理（forward）。
+优化思路
+
+50次ES查询是否可以合并为1次来减少网络开销
+模型推理有什么更快的方式
+
+针对第一项，我们首先查看其业务逻辑，发现ES查询和模型推理互相并没有依赖关系（最开始的设想中，我误以为ES查询依赖于模型推理的结果，考虑做模型输出结果的预测，提前查询ES来进行预测命中，减少后续的查询时间）。而50次查询中可能会存在重复查询，但要对应每次查询的结果，所以我们对50次查询进行汇总去重，并保留了和原数据的映射关系，查询后再映射回去。
+针对第二项，因该项目部署服务器为CPU机器（无GPU），选用GGML库，对推理模型改 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/paged-attention/" title="PagedAttention">PagedAttention</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-08-20T19:23:32.000Z" title="Created 2024-08-20 19:23:32">2024-08-20</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/">数据科学</a></span></div><div class="content">接着上文，LLM为了增加推理速度提出了KV Cache，但KV Cache会增加显存的消耗，从而对高并发不友好，
+因此提出了一些解决方案，PagedAttention就是其中一种较为高效的解决办法。
+什么是PagedAttention
+PagedAttention并不是一个新的网络结构，而是一种显存优化方案。
+PagedAttention的原理
+使用KV Cache的大模型的显存分布
+    
+其中，KV Cache中的显存主要浪费在保留显存、内部碎片、外部碎片
+    
+且因为KV Cache是动态的（相比于模型的其他部分），参考内存的处理方式，提出了显存分页。
+    
+针对解码的优化
+Parallel Sampling
+    
+Beam Search
+    
+为什么显卡没有虚拟内存和内存分页
+
+GPU设计的目的是为了并行计算，对显存要求低
+GPU的显存往往都不大
+GPU对带宽要求很高，虚拟内存会增加开销
+
+扩展
+这里我们自然会想到一些有趣的联想
+为什么目前的LLM接口都提供一个system prompt字段？
+为什么LLM接口（openai chatgpt）的收费竟然和max ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/kv-cache/" title="KV Cache">KV Cache</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-07-10T16:59:38.000Z" title="Created 2024-07-10 16:59:38">2024-07-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/">数据科学</a></span></div><div class="content">自回归模型的推理过程
+想看懂KV Cache部分，首先需要清晰的理解自回归模型在推理过程是怎样的。
+推理过程不同于SFT部分（相比于SFT低效太多，或者说训练部分并没有体现自回归范式），每次（输入流经整个模型）得到一个token，我们首先讨论按照训练时进行推理的方式，即每次输入上一轮的输入+上一轮生成的token序列的最后一位。循环迭代直到达到停止条件。
+但加入KV Cache之后，真正推理时每次仅需输入上一轮生成的token，而不是当前生成的完整输出。两种推理差异如图所示。
+  
+其中绿色的为上一轮生成的token，蓝色为之前的token，橘色的在token表示上等同于蓝色。蓝色和绿色都为需要即时计算，橘色则为缓存部分
+多轮自回归的QKV的变化
+  
+第一行为第一次输入，此时缓存是空的，输入的query也需要为整个question（prompt+question）生成对应的QKV，然后将K和V缓存起来；第二行即自回归的第二轮，将第一行的输出（一个token id）再次输入，得到一个QKV（长度皆为1），然后将该KV与各自的缓存KV合并起来，再进行attention，并把此时的KV缓存 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/closure/" title="闭包">闭包</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-01-02T14:57:12.000Z" title="Created 2024-01-02 14:57:12">2024-01-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Python/">Python</a></span></div><div class="content">闭包是什么？——一个函数与其周围状态绑定在一起就是闭包。
+概述
+闭包通常出现在支持头等函数、垃圾回收的编程语言中，如果函数f中定义了函数g，函数g中使用了自由变量，则函数g构成闭包。
+
+头等函数（First-class function）：指函数可以作为别的函数的参数、函数的返回值，赋值给变量或存储在数据结构中。
+自由变量（Free variables）：自由变量是指在一个特定作用域内未被定义但被引用的变量。
+约束变量（Bound variables）：约束变量是指在一个特定作用域内已经被定义的变量。
+
+以Python代码为例
+123456789101112def f():    y = 0  # 自由变量    def g():        nonlocal y        x = 0  # 约束变量        y += 1        x += 1        return y    return gclosure = f()print(closure())  # 1
+为什么提出闭包
+最初闭包是为了解决函数式编程中一些问题，包括隐藏保存一些私有数据、保存上下文（例如计数 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/rlhf/" title="RLHF">RLHF</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-12-28T14:34:32.000Z" title="Created 2023-12-28 14:34:32">2023-12-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/">数据科学</a></span></div><div class="content">LLM 训练步骤
+
+预训练
+监督微调
+RLHF
+
+前两部和以前的语言模型无异，我们以ChatGPT的博客，看一下RLHF做了些什么
+RLHF——PPO与LM的结合
+PPO属于Actor-Critic架构，Actor即策略也就是LLM本身，那么我们需要一个能对Actor输出结果进行打分的Critic值函数，因此我们先介绍Critic部分，该部分我们称之为Reward Model的训练，以dschat为例
+Reward Model
+Backbone采用LLM-base部分（即预训练后、监督微调前），输出头表示每个Token对应的V值。模型loss为pairwise loss
+1loss -= F.logsigmoid(c_divergence_reward - r_divergence_reward).mean()
+并且以last token作为终止奖励，根据模型可选的增加一个新的token
+PPO
+   
+
+以KL Penalty Coefficient加上Reward模型的end reward作为额外的奖励值（个人感觉不是很必要，同时用了clipped advantage）
+计算act ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/rl-remote-env/" title="强化学习远程环境">强化学习远程环境</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-23T09:46:50.000Z" title="Created 2023-10-23 09:46:50">2023-10-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/">强化学习</a></span></div><div class="content">远程环境无法渲染
+123456789101112131415161718import gymnasium as gymfrom stable_baselines3 import A2Cenv = gym.make(&quot;CartPole-v1&quot;, render_mode=&quot;rgb_array&quot;)model = A2C(&quot;MlpPolicy&quot;, env, verbose=1)model.learn(total_timesteps=10_000)vec_env = model.get_env()obs = vec_env.reset()for i in range(1000):    action, _state = model.predict(obs, deterministic=True)    obs, reward, done, info = vec_env.step(action)    vec_env.render(&quot;human&quot;)    # VecEnv resets automatically    ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/cpp-vtbl/" title="C++虚函数、纯虚函数、虚函数表">C++虚函数、纯虚函数、虚函数表</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-09T15:26:26.000Z" title="Created 2023-10-09 15:26:26">2023-10-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/C/">C++</a></span></div><div class="content">
+虚函数virtual ReturnType Function()&#123;&#125;
+纯虚函数virtual ReturnType Function()=0;
+
+虚函数与纯虚函数的区别
+
+声明虚函数，可以定义，也可以不定义，含有虚函数的类，可以被实现。
+声明纯虚函数，不可以有定义，含有纯虚函数的类（等价于抽象类），不可以被实现。
+
+虚函数表
+虚函数表是C++实现动态绑定技术（多态）的背后依赖。每个包含虚函数的类都包含一个虚表，同一个类的多个对象共享同一个虚表，也就是说每个对象前8个字节用来存储一个指针，同一类的多个对象的该指针相同，都指向该类的虚表。而虚表的构造在编译阶段就已经确定下来了。
+123456789101112131415161718192021222324252627282930class A&#123;public:    virtual void func1()    &#123;        cout&lt;&lt;&quot;A::func1() is called&quot;&lt;&lt;endl;    &#125;    virtual void f ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/python-import/" title="Python关键字import">Python关键字import</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-09-18T10:05:41.000Z" title="Created 2023-09-18 10:05:41">2023-09-18</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Python/">Python</a></span></div><div class="content">import是在一个模块中访问另一个模块的方法，那么第一个问题就是——什么是模块？
+模块（Module）
+什么是模块？
+模块是一个包含python的声明和定义的文件，文件名为模块名加上.py后缀，每个模块拥有自己的命名空间。
+包（Package）
+什么是包？为什么设计包这个概念？包与模块有什么区别？
+通常来说，包是一个包含多个模块的模块，例如一个包含多个.py后缀的目录。而设计这个包的概念是为了可以层级的组织模块。包是一种特殊情况下的模块，单不是所有模块都是包，最直接的区别就是包拥有__path__属性，而模块是没有的。
+同时，Python定义了两种类型的包——常规包和命名空间包。
+常规包（Regular Package）
+通常我们印象中的包的结构都是常规包，如下所示
+12345678parent/    __init__.py    one/        __init__.py    two/        __init__.py    three/        __init__.py
+目录中包含__init__.py文件，当我们引用该包或该包中的子模块时，对应的__init__ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/mixed-precision-training/" title="混合精度训练">混合精度训练</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-08-22T17:06:39.000Z" title="Created 2023-08-22 17:06:39">2023-08-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/">数据科学</a></span></div><div class="content">浮点型
+什么是浮点型
+小数点位置约定在固定位置的数称为定点数，小数点位置约定为可以浮动的数称为浮点数。
+深度学习中常见的浮点型格式
+单精度FP32
+半精度FP16
+半精度BF16（安培架构）
+浮点型表示方法
+   
+浮点型包含三部分，依次为符号位（sign）、指数位（阶码）（exponent）、尾数位（mantissa, trailing significand field, fraction），则一个浮点型数可以表示为
+(−1)s×t×2e(-1)^s \times t \times 2^e
+(−1)s×t×2e
+其中符号位1为负数，0为正数，指数位采用补码，尾数位采用原码。指数位存在一个指数偏置项（移码）（exponent bias），偏置项为 2(n−1)−12^{(n-1)}-12(n−1)−1 而非通常的 2(n−1)2^{(n-1)}2(n−1) ，以FP32为例，偏置项为127，通过偏置项将无符号指数范围从1~254（全1和全0用来标记特殊值）转移到 -126~127 避免指数位同样出现一个符号位与浮点型符号位增加比值问题的复杂度。因同一个数对应的尾数有多种表示，因此IE ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/llm-benchmarks/" title="大模型评估数据集">大模型评估数据集</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-07-24T10:35:36.000Z" title="Created 2023-07-24 10:35:36">2023-07-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/">数据科学</a></span></div><div class="content">基础常识推理
+BoolQ
+   
+BoolQ is a question answering dataset for yes/no questions containing 15942 examples. These questions are naturally occurring ---they are generated in unprompted and unconstrained settings. Each example is a triplet of (question, passage, answer), with the title of the page as optional additional context. The text-pair classification setup is similar to existing natural language inference tasks.
+PIQA(Physical Interaction: Question Answering)
+   
+The dataset contains 16,000 examp ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="page-number" href="/page/3/#content-inner">3</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">EeyoreLee</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">22</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/EeyoreLee"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/model-es-performance-optimization/" title="记：一次接口性能优化（cpu模型推理 + ES)">记：一次接口性能优化（cpu模型推理 + ES)</a><time datetime="2024-08-22T19:38:04.000Z" title="Created 2024-08-22 19:38:04">2024-08-22</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/paged-attention/" title="PagedAttention">PagedAttention</a><time datetime="2024-08-20T19:23:32.000Z" title="Created 2024-08-20 19:23:32">2024-08-20</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/kv-cache/" title="KV Cache">KV Cache</a><time datetime="2024-07-10T16:59:38.000Z" title="Created 2024-07-10 16:59:38">2024-07-10</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/closure/" title="闭包">闭包</a><time datetime="2024-01-02T14:57:12.000Z" title="Created 2024-01-02 14:57:12">2024-01-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/rlhf/" title="RLHF">RLHF</a><time datetime="2023-12-28T14:34:32.000Z" title="Created 2023-12-28 14:34:32">2023-12-28</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>Categories</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/C/"><span class="card-category-list-name">C++</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Python/"><span class="card-category-list-name">Python</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0/"><span class="card-category-list-name">强化学习</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/"><span class="card-category-list-name">数据科学</span><span class="card-category-list-count">15</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"><span class="card-category-list-name">数据结构与算法</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%BF%90%E7%BB%B4/"><span class="card-category-list-name">运维</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span><a class="card-more-btn" href="/archives/" title="View More">
+    <i class="fas fa-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/08/"><span class="card-archive-list-date">August 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/07/"><span class="card-archive-list-date">July 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/01/"><span class="card-archive-list-date">January 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/12/"><span class="card-archive-list-date">December 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/10/"><span class="card-archive-list-date">October 2023</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">September 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">August 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">July 2023</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">22</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Update :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-10-23T16:05:22.116Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: transparent"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By EeyoreLee</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
